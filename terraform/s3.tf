@@ -25,7 +25,5 @@ POLICY
 
   tags = {
     type    = "website"
-    service = var.domain
-    domain  = var.domain
   }
 }

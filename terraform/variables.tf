@@ -17,8 +17,8 @@ variable "region" {
 }
 
 variable "domain" {
-  description = "DNS domain for web S3 distribution - (ex. reedflinch.io)"
-  default     = "*.iamalikazmi.io"
+  description = "DNS domain for web S3 distribution"
+  default     = "iamalikazmi.io"
 }
 
 variable "bucket_name" {
